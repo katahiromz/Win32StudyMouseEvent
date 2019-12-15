@@ -172,7 +172,7 @@ void OnRButtonUp(HWND hwnd, int x, int y, UINT keyFlags)
 
 void OnContextMenu(HWND hwnd, HWND hwndContext, UINT xPos, UINT yPos)
 {
-    DoPrint(hwnd, L"WM_CONTEXTMENU(%d, %d)\r\n", xPos, yPos);
+    DoPrint(hwnd, L"WM_CONTEXTMENU(%u, %u)\r\n", xPos, yPos);
 }
 
 void OnMouseMove(HWND hwnd, int x, int y, UINT keyFlags)
