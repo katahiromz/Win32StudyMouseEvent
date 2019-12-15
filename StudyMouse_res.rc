@@ -15,8 +15,8 @@ LANGUAGE LANG_ENGLISH, SUBLANG_DEFAULT
 //////////////////////////////////////////////////////////////////////////////
 // RT_DIALOG
 
-1 DIALOG 0, 0, 265, 225
-CAPTION "Sample Dialog"
+1 DIALOG 0, 0, 265, 245
+CAPTION "Win32StudyMouseEvent"
 STYLE DS_MODALFRAME | WS_POPUPWINDOW | WS_CAPTION
 FONT 9, "MS Shell Dlg"
 {
@@ -24,8 +24,8 @@ FONT 9, "MS Shell Dlg"
     PUSHBUTTON "Cancel", IDCANCEL, 70, 125, 60, 15
     PUSHBUTTON "psh1", psh1, 135, 125, 60, 15
     PUSHBUTTON "psh2", psh2, 200, 125, 60, 15
-    EDITTEXT edt1, 5, 145, 255, 60, ES_READONLY | ES_MULTILINE | WS_VSCROLL | WS_HSCROLL
-    AUTOCHECKBOX "WM_MOUSEMOVE", chx1, 5, 210, 84, 14
+    EDITTEXT edt1, 5, 145, 255, 80, ES_READONLY | ES_MULTILINE | WS_VSCROLL | WS_HSCROLL
+    AUTOCHECKBOX "WM_MOUSEMOVE", chx1, 5, 230, 85, 14
 }
 
 //////////////////////////////////////////////////////////////////////////////
